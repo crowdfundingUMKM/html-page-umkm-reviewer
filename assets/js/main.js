@@ -1,9 +1,3 @@
-/**
-* Template Name: NiceAdmin - v2.5.0
-* Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
 
@@ -318,3 +312,17 @@
   }
 
 })();
+
+// toggle password hide/show
+function togglePasswordVisibility(userNumber) {
+  const passwordInput = document.getElementById(`yourPassword${userNumber}`);
+  const showHideBtn = document.getElementById(`showHideBtn${userNumber}`);
+
+  if (passwordInput.type === 'password') {
+    passwordInput.type = 'text';
+    showHideBtn.innerHTML = '<i class="bi bi-eye"></i>';
+  } else {
+    passwordInput.type = 'password';
+    showHideBtn.innerHTML = '<i class="bi bi-eye-slash"></i>';
+  }
+}
