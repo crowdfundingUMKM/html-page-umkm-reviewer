@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Daftar Review UMKM / Reviewer Mode</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.gstatic.com" rel="preconnect">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+  <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+
+    <div class="d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <img src="assets/img/logo.png" alt="">
+        <span class="d-none d-lg-block">Reviewer</span>
+      </a>
+      <i class="bi bi-list toggle-sidebar-btn"></i>
+    </div><!-- End Logo -->
+
+
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+
+        <li class="nav-item d-block d-lg-none">
+          <a class="nav-link nav-icon search-bar-toggle " href="#">
+            <i class="bi bi-search"></i>
+          </a>
+        </li><!-- End Search Icon-->
+
+        <li class="nav-item dropdown">
+
+          <a class="nav-link nav-icon" href="#" data-bs-toggle="dropdown">
+            <i class="bi bi-bell"></i>
+            <span class="badge bg-primary badge-number">4</span>
+          </a><!-- End Notification Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow notifications">
+            <li class="dropdown-header">
+              You have 4 new notifications
+              <a href="#"><span class="badge rounded-pill bg-primary p-2 ms-2">View all</span></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-exclamation-circle text-warning"></i>
+              <div>
+                <h4>Lorem Ipsum</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>30 min. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-x-circle text-danger"></i>
+              <div>
+                <h4>Atque rerum nesciunt</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>1 hr. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-check-circle text-success"></i>
+              <div>
+                <h4>Sit rerum fuga</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>2 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li class="notification-item">
+              <i class="bi bi-info-circle text-primary"></i>
+              <div>
+                <h4>Dicta reprehenderit</h4>
+                <p>Quae dolorem earum veritatis oditseno</p>
+                <p>4 hrs. ago</p>
+              </div>
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li class="dropdown-footer">
+              <a href="#">Show all notifications</a>
+            </li>
+
+          </ul><!-- End Notification Dropdown Items -->
+
+        </li><!-- End Notification Nav -->
+
+
+        <li class="nav-item dropdown pe-3">
+
+          <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+            <img src="assets/img/profile-img.jpg" alt="Profile" class="rounded-circle">
+            <!-- Name Ivestor -->
+            <span class="d-none d-md-block dropdown-toggle ps-2">Ahmad Zaky</span>
+          </a><!-- End Profile Iamge Icon -->
+
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <li class="dropdown-header">
+              <!-- Nama investor -->
+              <h6>Ahmad Zaky</h6>
+              <span>Crowdfunding Admin</span>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                <i class="bi bi-person"></i>
+                <span>My Profile</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+                <i class="bi bi-question-circle"></i>
+                <!-- Rediret to faq CRWD ADMIN -->
+                <span>Need Help?</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <i class="bi bi-box-arrow-right"></i>
+                <span>Sign Out</span>
+              </a>
+            </li>
+
+          </ul><!-- End Profile Dropdown Items -->
+        </li><!-- End Profile Nav -->
+
+      </ul>
+    </nav><!-- End Icons Navigation -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
+
+    <ul class="sidebar-nav" id="sidebar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="index.html">
+          <i class="bi bi-grid"></i>
+          <span>Dashboard</span>
+        </a>
+      </li><!-- End Dashboard Nav -->
+
+      <!-- TIHIS my sidebar UP-->
+      <!-- List Camapign -->
+      <li class="nav-item list-campaign">
+        <a class="nav-link" data-bs-target="#list-campaign-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-bag"></i><span>Campaign UMKM</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="list-campaign-nav" class="nav-content collapse show" data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="list-campaign-umkm.html" class="active">
+              <i class="bi bi-circle"></i><span>List Campaign UMKM</span>
+            </a>
+          </li>
+          <li>
+            <a href="my-invest-campaign.html">
+              <i class="bi bi-circle"></i><span>My Invest Campaign</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <!-- End List Camapign-->
+
+      <!-- Pembayaran Belum -->
+      <li class="nav-item transaction-error">
+        <a class="nav-link collapsed" data-bs-target="#payment-status" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-cash-stack"></i><span>Pembayaran</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="payment-status" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="pembayaran-sukses.html">
+              <i class="bi bi-circle"></i><span class="text-success">Pembayaran Sukses</span>
+            </a>
+          </li>
+          <li>
+            <a href="pembayaran-pending.html">
+              <i class="bi bi-circle"></i><span class="text-warning">Pembayaran Pending</span>
+            </a>
+          </li>
+          <li>
+            <a href="pembayaran-failure.html">
+              <i class="bi bi-circle"></i><span class=" text-danger">Pembayaran Batal</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <!-- End List Camapign-->
+      <!-- Histori Saya -->
+      <li class="nav-item transaksi">
+        <a class="nav-link collapsed" data-bs-target="#transaction-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-cash-stack"></i><span>Histori profit saya</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="transaction-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          
+          <li>
+            <a href="histori-penarikan.html">
+              <i class="bi bi-circle"></i><span>Histori Penarikan</span>
+            </a>
+          </li>
+          <li>
+            <a href="histori-penerimaan.html">
+              <i class="bi bi-circle"></i><span>Histori Penerimaan</span>
+            </a>
+          </li>
+        </ul>
+      </li>
+      <!-- Transaksi Saya -->
+
+
+      <!-- End this my sidabar UP -->
+
+
+      <li class="nav-heading">Pages</li>
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="users-profile.html">
+          <i class="bi bi-person"></i>
+          <span>Profile</span>
+        </a>
+      </li><!-- End Profile Page Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" href="pages-faq.html">
+          <i class="bi bi-question-circle"></i>
+          <span>F.A.Q</span>
+        </a>
+      </li><!-- End F.A.Q Page Nav -->
+
+      <!-- Notif Admin -->
+    <li class="nav-item side-service">
+      <a class="nav-link collapsed" data-bs-target="#side-notif-admin" data-bs-toggle="collapse" href="#">
+        <i class="bi bi-app-indicator"></i><span>Notifikasi Admin</span><i class="bi bi-chevron-down ms-auto"></i>
+      </a>
+      <ul id="side-notif-admin" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+        <li>
+          <a href="pages-notif-admin.html" >
+            <i class="bi bi-circle"></i><span>Notif Admin</span>
+          </a>
+        </li>
+        <li>
+          <a href="pages-contact.html">
+            <i class="bi bi-circle"></i><span>Lapor Admin</span>
+          </a>
+        </li>
+      </ul>
+    </li>
+    <!-- End Notif Admin-->
+
+    </ul>
+
+  </aside><!-- End Sidebar-->
+
+  <main id="main" class="main">
+
+    <div class="pagetitle">
+      <h1>Daftar Review UMKM</h1>
+      <nav>
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+          <li class="breadcrumb-item">Campaign UMKM</li>
+          <li class="breadcrumb-item active">Daftar Review UMKM</li>
+        </ol>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <section class="section">
+      <div class="col-lg">
+        <div class="alert alert-info alert-dismissible fade show" role="alert">
+          <h5 class="alert-heading">Tentang Daftar Review UMKM</h5>
+          <p>Anda akan menemukan daftar UMKM yang telah Anda review sebagai konsultan. Anda memiliki kontrol penuh atas ulasan yang Anda berikan, termasuk kemampuan untuk melakukan pembaruan jika diperlukan. Halaman ini memberikan akses cepat ke semua UMKM yang telah Anda tinjau, dan Anda juga dapat menghapus review yang tidak lagi relevan atau perlu diperbarui. Ini adalah langkah penting dalam membantu UMKM berkembang dan memastikan ulasan Anda selalu akurat dan bermanfaat.</p>
+
+          <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+      </div>
+    
+      <!-- content -->
+      <div class="conrainer">
+        <div class="col">
+          <!-- Card Campaign -->
+          <div class="row">
+            <div class="col-4">
+                <!-- Default Card -->
+                <div class="card">
+                  <img src="assets/img/card.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <div class="pt-4">
+                      <p class="mb-3">14 Mar, 2020 - <strong class="badge bg-primary">Active</strong></p>
+                      <!--  bar loan-->
+                      <div class="progress mb-2">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
+                        </div>
+                        <div class="row d-flex justify-content-between pb-2">
+                        <div class="col">Rp.600000</div>
+                      </div>
+                      <h2 class="h4"><a class="text-black shorten-text-card" href="blog-details.html">Cheerful Loving Couple Bakers Drinking Coffee</a></h2>
+                      <p class="shorten-text-card">It’s no secret that the digital industry is booming. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto reprehenderit praesentium facere quo voluptatem aliquam rerum quibusdam adipisci quis illum.</p> 
+                
+                       <!-- Button for preview -->
+                      <div class="col m-1">
+                        <a href="list-campaign-umkm-preview.html">
+                          <button class="btn btn-primary w-100" type="button"><i class="bi-info-circle"></i>
+                            Preview
+                          </button>
+                        </a>
+                      </div>
+
+                      <!-- Button for delete review -->
+                      <div class="col m-1">
+                        <a href="#">
+                          <button class="btn btn-danger w-100" type="button"><i class="bi-x-circle"></i>
+                            Delete Review
+                          </button>
+                        </a>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div><!-- End Default Card --> 
+            </div>
+            
+            <!-- Campaign Review -->
+            <div class="col-8">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Review Campaign</h5>
+                  <h4>Nama Reviewer 1</h4>
+                  <p>Sunt est soluta temporibus accusantium neque nam maiores cumque temporibus. Tempora libero non est unde veniam est qui dolor. Ut sunt iure rerum quae quisquam autem eveniet perspiciatis odit. Fuga sequi sed ea saepe at unde.</p>
+                  <div id="rating_review">
+                    <p>Review UMKM: ⭐⭐⭐⭐4/5 </p>
+                  </div>
+                  <hr>
+                  <!-- General Form Elements -->
+                  <h5 class="card-title">Update Review</h5>
+                  <form class="needs-validation" novalidate>
+                    <div class="row mb-3">
+                      <label for="inputText" class="col-sm-2 col-form-label">Nama</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" value="yourName" disabled>
+                      </div>
+                    </div>
+                    <div class="row mb-3">
+                      <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                      <div class="col-sm-10"> 
+                        <input type="email" class="form-control" value="youremail@userReviewer.com" disabled>
+                      </div>
+                    </div>
+                    <div class="row mb-3">
+                      <label for="inputDeskripsi" class="col-sm-2 col-form-label">Deskripsi Info</label>
+                      <div class="col-sm-10">
+                        <textarea class="form-control" style="height: 100px" placeholder="ini harus diisi" required>Ini informasi tentang review campaign</textarea>
+                      </div>
+                    </div>
+                    <div class="row mb-3">
+                      <label class="col-sm-2 col-form-label">Skor</label>
+                      <div class="col-sm-10">
+                        <select class="form-select" aria-label="Default select example">
+                          <option value="1">⭐</option>
+                          <option value="2">⭐⭐</option>
+                          <option value="3">⭐⭐⭐</option>
+                          <option value="4">⭐⭐⭐⭐</option>
+                          <option value="5">⭐⭐⭐⭐⭐</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                        <label class="form-check-label" for="gridCheck">
+                          Benar dan sesuai
+                        </label>
+                        <div class="invalid-feedback">Tolong, Checklist ini sebelum mengirimkan!</div>
+                      </div>
+                    </div>
+                    <br>
+                    <div class="row mb-3">
+                      <label class="col-sm-2 col-form-label">Submit</label>
+                      <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary">Simpan</button>
+                      </div>
+                    </div>
+                  </form><!-- End General Form Elements -->
+                </div>
+              </div>
+            </div>
+            <!-- End Campaign Review -->
+          </div>
+
+          <div class="row">
+            <div class="col-4">
+                <!-- Default Card -->
+                <div class="card">
+                  <img src="assets/img/card.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <div class="pt-4">
+                      <p class="mb-3">14 Mar, 2020 - <strong class="badge bg-primary">Active</strong></p>
+                      <!--  bar loan-->
+                      <div class="progress mb-2">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
+                        </div>
+                        <div class="row d-flex justify-content-between pb-2">
+                        <div class="col">Rp.600000</div>
+                      </div>
+                      <h2 class="h4"><a class="text-black shorten-text-card" href="blog-details.html">Cheerful Loving Couple Bakers Drinking Coffee</a></h2>
+                      <p class="shorten-text-card">It’s no secret that the digital industry is booming. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto reprehenderit praesentium facere quo voluptatem aliquam rerum quibusdam adipisci quis illum.</p> 
+                
+                       <!-- Button for preview -->
+                      <div class="col m-1">
+                        <a href="list-campaign-umkm-preview.html">
+                          <button class="btn btn-primary w-100" type="button"><i class="bi-info-circle"></i>
+                            Preview
+                          </button>
+                        </a>
+                      </div>
+
+                      <!-- Button for delete review -->
+                      <div class="col m-1">
+                        <a href="#">
+                          <button class="btn btn-danger w-100" type="button"><i class="bi-x-circle"></i>
+                            Delete Review
+                          </button>
+                        </a>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div><!-- End Default Card --> 
+            </div>
+           <!-- Campaign Review -->
+           <div class="col-8">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Review Campaign</h5>
+                <h4>Nama Reviewer 1</h4>
+                <p>Sunt est soluta temporibus accusantium neque nam maiores cumque temporibus. Tempora libero non est unde veniam est qui dolor. Ut sunt iure rerum quae quisquam autem eveniet perspiciatis odit. Fuga sequi sed ea saepe at unde.</p>
+                <div id="rating_review">
+                  <p>Review UMKM: ⭐⭐⭐⭐4/5 </p>
+                </div>
+                <hr>
+                <!-- General Form Elements -->
+                <h5 class="card-title">Update Review</h5>
+                <form class="needs-validation" novalidate>
+                  <div class="row mb-3">
+                    <label for="inputText" class="col-sm-2 col-form-label">Nama</label>
+                    <div class="col-sm-10">
+                      <input type="text" class="form-control" value="yourName" disabled>
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                    <div class="col-sm-10"> 
+                      <input type="email" class="form-control" value="youremail@userReviewer.com" disabled>
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <label for="inputDeskripsi" class="col-sm-2 col-form-label">Deskripsi Info</label>
+                    <div class="col-sm-10">
+                      <textarea class="form-control" style="height: 100px" placeholder="ini harus diisi" required>Ini informasi tentang review campaign</textarea>
+                    </div>
+                  </div>
+                  <div class="row mb-3">
+                    <label class="col-sm-2 col-form-label">Skor</label>
+                    <div class="col-sm-10">
+                      <select class="form-select" aria-label="Default select example">
+                        <option value="1">⭐</option>
+                        <option value="2">⭐⭐</option>
+                        <option value="3">⭐⭐⭐</option>
+                        <option value="4">⭐⭐⭐⭐</option>
+                        <option value="5">⭐⭐⭐⭐⭐</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                      <label class="form-check-label" for="gridCheck">
+                        Benar dan sesuai
+                      </label>
+                      <div class="invalid-feedback">Tolong, Checklist ini sebelum mengirimkan!</div>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="row mb-3">
+                    <label class="col-sm-2 col-form-label">Submit</label>
+                    <div class="col-sm-10">
+                      <button type="submit" class="btn btn-primary">Simpan</button>
+                    </div>
+                  </div>
+                </form><!-- End General Form Elements -->
+              </div>
+            </div>
+          </div>
+          </div>
+          <!-- End Campaign Review -->
+
+          <div class="row">
+            <div class="col-4">
+                <!-- Default Card -->
+                <div class="card">
+                  <img src="assets/img/card.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <div class="pt-4">
+                      <p class="mb-3">14 Mar, 2020 - <strong class="badge bg-primary">Active</strong></p>
+                      <!--  bar loan-->
+                      <div class="progress mb-2">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated bg-primary" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">75%</div>
+                        </div>
+                        <div class="row d-flex justify-content-between pb-2">
+                        <div class="col">Rp.600000</div>
+                      </div>
+                      <h2 class="h4"><a class="text-black shorten-text-card" href="blog-details.html">Cheerful Loving Couple Bakers Drinking Coffee</a></h2>
+                      <p class="shorten-text-card">It’s no secret that the digital industry is booming. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto reprehenderit praesentium facere quo voluptatem aliquam rerum quibusdam adipisci quis illum.</p> 
+                
+                       <!-- Button for preview -->
+                      <div class="col m-1">
+                        <a href="list-campaign-umkm-preview.html">
+                          <button class="btn btn-primary w-100" type="button"><i class="bi-info-circle"></i>
+                            Preview
+                          </button>
+                        </a>
+                      </div>
+
+                      <!-- Button for delete review -->
+                      <div class="col m-1">
+                        <a href="#">
+                          <button class="btn btn-danger w-100" type="button"><i class="bi-x-circle"></i>
+                            Delete Review
+                          </button>
+                        </a>
+                      </div>
+                     
+                    </div>
+                  </div>
+                </div><!-- End Default Card --> 
+            </div>
+
+            <!-- Campaign Review -->
+            <div class="col-8">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Review Campaign</h5>
+                  <h4>Nama Reviewer 1</h4>
+                  <p>Sunt est soluta temporibus accusantium neque nam maiores cumque temporibus. Tempora libero non est unde veniam est qui dolor. Ut sunt iure rerum quae quisquam autem eveniet perspiciatis odit. Fuga sequi sed ea saepe at unde.</p>
+                  <div id="rating_review">
+                    <p>Review UMKM: ⭐⭐⭐⭐4/5 </p>
+                  </div>
+                  <hr>
+                  <!-- General Form Elements -->
+                  <h5 class="card-title">Update Review</h5>
+                  <form class="needs-validation" novalidate>
+                    <div class="row mb-3">
+                      <label for="inputText" class="col-sm-2 col-form-label">Nama</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" value="yourName" disabled>
+                      </div>
+                    </div>
+                    <div class="row mb-3">
+                      <label for="inputEmail" class="col-sm-2 col-form-label">Email</label>
+                      <div class="col-sm-10"> 
+                        <input type="email" class="form-control" value="youremail@userReviewer.com" disabled>
+                      </div>
+                    </div>
+                    <div class="row mb-3">
+                      <label for="inputDeskripsi" class="col-sm-2 col-form-label">Deskripsi Info</label>
+                      <div class="col-sm-10">
+                        <textarea class="form-control" style="height: 100px" placeholder="ini harus diisi" required>Ini informasi tentang review campaign</textarea>
+                      </div>
+                    </div>
+                    <div class="row mb-3">
+                      <label class="col-sm-2 col-form-label">Skor</label>
+                      <div class="col-sm-10">
+                        <select class="form-select" aria-label="Default select example">
+                          <option value="1">⭐</option>
+                          <option value="2">⭐⭐</option>
+                          <option value="3">⭐⭐⭐</option>
+                          <option value="4">⭐⭐⭐⭐</option>
+                          <option value="5">⭐⭐⭐⭐⭐</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck" required>
+                        <label class="form-check-label" for="gridCheck">
+                          Benar dan sesuai
+                        </label>
+                        <div class="invalid-feedback">Tolong, Checklist ini sebelum mengirimkan!</div>
+                      </div>
+                    </div>
+                    <br>
+                    <div class="row mb-3">
+                      <label class="col-sm-2 col-form-label">Submit</label>
+                      <div class="col-sm-10">
+                        <button type="submit" class="btn btn-primary">Simpan</button>
+                      </div>
+                    </div>
+                  </form><!-- End General Form Elements -->
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <!-- End Campaign Review -->
+        
+        </div>
+      </div>
+    </section>
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="copyright">
+      &copy; Copyright <strong><span>Crowdfunding UMKM</span></strong>. All Rights Reserved (Skripsi TA)
+    </div>
+    <div class="credits">
+      Designed by <a href="">By Ahmad Zaky</a>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/chart.js/chart.umd.js"></script>
+  <script src="assets/vendor/echarts/echarts.min.js"></script>
+  <script src="assets/vendor/quill/quill.min.js"></script>
+  <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+  <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
