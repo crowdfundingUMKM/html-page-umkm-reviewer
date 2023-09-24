@@ -189,8 +189,8 @@
 
   </header><!-- End Header -->
 
-   <!-- ======= Sidebar ======= -->
-   <aside id="sidebar" class="sidebar">
+  <!-- ======= Sidebar ======= -->
+  <aside id="sidebar" class="sidebar">
 
     <ul class="sidebar-nav" id="sidebar-nav">
 
@@ -201,80 +201,77 @@
         </a>
       </li><!-- End Dashboard Nav -->
 
-      <!-- TIHIS my sidebar UP-->
-      <!-- List Camapign -->
-      <li class="nav-item list-campaign">
-        <a class="nav-link collapsed" data-bs-target="#list-campaign-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-bag"></i><span>Campaign UMKM</span><i class="bi bi-chevron-down ms-auto"></i>
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#components-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-shop"></i><span>Campaign UMKM</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
-        <ul id="list-campaign-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+        <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
-            <a href="list-campaign-umkm.html">
-              <i class="bi bi-circle"></i><span>List Campaign UMKM</span>
+            <a href="campaign-list-umkm.html" >
+              <i class="bi bi-circle"></i><span>Daftar Campaign UMKM</span>
             </a>
           </li>
           <li>
-            <a href="my-invest-campaign.html">
-              <i class="bi bi-circle"></i><span>My Invest Campaign</span>
+            <a href="campaign-preview.html" >
+              <i class="bi bi-circle"></i><span>Preview Campaign</span>
+            </a>
+          </li> 
+        </ul>
+      </li><!-- End Daftar Campaign UMKM Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#reviewer-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-pen"></i><span>Review UMKM</span><i class="bi bi-chevron-down ms-auto"></i>
+        </a>
+        <ul id="reviewer-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+          <li>
+            <a href="reviewer-make-review.html">
+              <i class="bi bi-circle"></i><span>Buat Review Anda</span>
+            </a>
+          </li>
+          <li>
+            <a href="reviewer-list-review.html">
+              <i class="bi bi-circle"></i><span>Daftar Review Anda</span>
             </a>
           </li>
         </ul>
-      </li>
-      <!-- End List Camapign-->
+      </li><!-- End Tables Nav -->
 
-      <!-- Pembayaran Belum -->
-      <li class="nav-item transaction-error">
-        <a class="nav-link collapsed" data-bs-target="#payment-status" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-cash-stack"></i><span>Pembayaran</span><i class="bi bi-chevron-down ms-auto"></i>
+      <li class="nav-item">
+        <a class="nav-link collapsed" data-bs-target="#tables-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-graph-up-arrow"></i><span>Profit Reviewer</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
-        <ul id="payment-status" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+        <ul id="tables-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
-            <a href="pembayaran-sukses.html">
-              <i class="bi bi-circle"></i><span class="text-success">Pembayaran Sukses</span>
-            </a>
-          </li>
-          <li>
-            <a href="pembayaran-pending.html">
-              <i class="bi bi-circle"></i><span class="text-warning">Pembayaran Pending</span>
-            </a>
-          </li>
-          <li>
-            <a href="pembayaran-failure.html">
-              <i class="bi bi-circle"></i><span class=" text-danger">Pembayaran Batal</span>
+            <a href="profit-reviewer.html">
+              <i class="bi bi-circle"></i><span>Profit Review UMKM</span>
             </a>
           </li>
         </ul>
-      </li>
-      <!-- End List Camapign-->
-      <!-- Histori Saya -->
-      <li class="nav-item transaksi">
-        <a class="nav-link collapsed" data-bs-target="#transaction-nav" data-bs-toggle="collapse" href="#">
-          <i class="bi bi-cash-stack"></i><span>Histori profit saya</span><i class="bi bi-chevron-down ms-auto"></i>
+      </li><!-- End Tables Nav -->
+
+      <li class="nav-item">
+        <a class="nav-link " data-bs-target="#admin-nav" data-bs-toggle="collapse" href="#">
+          <i class="bi bi-app-indicator"></i><span>Notifikasi Admin</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
-        <ul id="transaction-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-          
+        <ul id="admin-nav" class="nav-content collapse show" data-bs-parent="#sidebar-nav">
           <li>
-            <a href="histori-penarikan.html">
-              <i class="bi bi-circle"></i><span>Histori Penarikan</span>
+            <a href="/pages-notif-admin.html">
+              <i class="bi bi-circle"></i><span>Notif Admin</span>
             </a>
           </li>
           <li>
-            <a href="histori-penerimaan.html">
-              <i class="bi bi-circle"></i><span>Histori Penerimaan</span>
+            <a href="pages-lapor-admin.html" class="active">
+              <i class="bi bi-circle"></i><span>Lapor Admin</span>
             </a>
           </li>
         </ul>
-      </li>
-      <!-- Transaksi Saya -->
-
-
-      <!-- End this my sidabar UP -->
-
+      </li><!-- End Tables Nav -->
 
       <li class="nav-heading">Pages</li>
 
       <li class="nav-item">
-        <a class="nav-link collapsed" href="users-profile.html">
+        <a class="nav-link collapsed" href="pages-profile.html">
           <i class="bi bi-person"></i>
           <span>Profile</span>
         </a>
@@ -286,15 +283,6 @@
           <span>F.A.Q</span>
         </a>
       </li><!-- End F.A.Q Page Nav -->
-
-      <li class="nav-item">
-        <a class="nav-link " href="pages-contact.html">
-          <i class="bi bi-envelope"></i>
-          <span>Kontak Admin</span>
-        </a>
-      </li><!-- End Contact Page Nav -->
-
-
     </ul>
 
   </aside><!-- End Sidebar-->
